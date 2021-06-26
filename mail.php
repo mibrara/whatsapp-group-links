@@ -8,5 +8,5 @@
        $subject="Whatsapp group links submission";
        $mailheader="From $email \r\n";
        mail ($mailto, $subject, $formcontent, $mailheader) or die ("Error!");
-       echo "Thank you"
+       echo "Thank you";
 ?>
